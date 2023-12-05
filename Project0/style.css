@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.links{
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-top: 20px;
+
+}
+
+.links a {
+    margin-right: 20px;
+}
+
+.google_img, form .input, form .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input input{
+    padding:5px 5px 20px 20px;
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+}
+::placeholder{
+    margin: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.btn input{
+    font-size: 14px;
+    background-color: rgb(231, 231, 233);
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+
+    
+}
+
+/* advanced search css */
+.advance_img{
+    display: inline;
+}
+.advance_img img{
+    width: 100px;
+    height: 60px;
+}
+
+.advanced_header a{
+   float: inline-end;
+   margin: 20px 30px;
+}
+
+.google{
+   margin: 30px 20px;
+}
+
+.input_one{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 50px;
+   
+}
+
+.input_one .text{
+   width: 200px;
+   font-size: 13px;
+
+}
+
+.input_one .textHeading{
+    font-size: 20px;
+}
+.todoHeading{
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+}
+
+
+.input_one .todo{
+    text-align: right;
+}
+
+.input_field{
+    width: 400px;
+}
+
+.input_field input{
+    width: 100%;
+}
+
+.todo{
+    margin-left: 20px;
+    font-size: 13px;
+    color: rgb(172, 169, 169);
+}
+
+.button{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button input{
+    background-color: rgb(102, 147, 231);
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
